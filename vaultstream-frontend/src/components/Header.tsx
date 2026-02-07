@@ -73,7 +73,7 @@ export function Header() {
         {/* Right Side Actions */}
         <div className="flex items-center space-x-4">
           <a
-            href="https://github.com/yourusername/vaultstream"
+            href="https://github.com/NeelShah1505/VaultStream"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-indigo-400 transition-colors"

@@ -55,7 +55,7 @@ export function Footer() {
             <h4 className="font-semibold text-slate-200 mb-4">Connect</h4>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/yourusername/vaultstream"
+                href="https://github.com/NeelShah1505/VaultStream"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg glass-card flex items-center justify-center hover:border-indigo-400/40 transition-all"
@@ -63,7 +63,7 @@ export function Footer() {
                 <FiGithub className="text-slate-300" size={20} />
               </a>
               <a
-                href="https://twitter.com/vaultstream"
+                href="https://twitter.com/NeelShah1505"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg glass-card flex items-center justify-center hover:border-indigo-400/40 transition-all"
@@ -71,7 +71,7 @@ export function Footer() {
                 <FiTwitter className="text-slate-300" size={20} />
               </a>
               <a
-                href="mailto:contact@vaultstream.io"
+                href="mailto:neelshah1505@gmail.com"
                 className="w-10 h-10 rounded-lg glass-card flex items-center justify-center hover:border-indigo-400/40 transition-all"
               >
                 <FiMail className="text-slate-300" size={20} />
@@ -82,7 +82,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-indigo-500/20 flex flex-col md:flex-row justify-between items-center text-sm text-slate-400">
-          <p>© 2024 VaultStream. Built for iExec Builder Challenge.</p>
+          <p>© 2026 VaultStream. Built for iExec Hackathon.</p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <span className="text-xs">Powered by</span>
             <span className="text-indigo-400 font-semibold">iExec Protocol</span>
