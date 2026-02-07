@@ -3,13 +3,14 @@
 import { motion } from 'framer-motion';
 import { FiGithub } from 'react-icons/fi';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import Image from 'next/image';
 
 export function Header() {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
     e.preventDefault();
     const element = document.getElementById(targetId);
     if (element) {
-      const offset = 80; // Header height
+      const offset = 80;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - offset;
 
@@ -36,8 +37,14 @@ export function Header() {
           }}
           className="flex items-center space-x-3 group"
         >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-blue-600 flex items-center justify-center font-bold text-white text-lg group-hover:scale-110 transition-transform">
-            VS
+          <div className="relative w-10 h-10 group-hover:scale-110 transition-transform">
+            <Image
+              src="/vaultstream logo.png"
+              alt="VaultStream Logo"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
           <div>
             <div className="font-bold text-lg gradient-text">VaultStream</div>
