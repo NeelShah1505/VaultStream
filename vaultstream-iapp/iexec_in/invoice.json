@@ -1,0 +1,7 @@
+{
+  "invoiceId": "INV-2024-001",
+  "amount": 10000,
+  "dueDate": "2024-03-15",
+  "clientName": "Acme Corp",
+  "clientTier": "TIER_1"
+}
